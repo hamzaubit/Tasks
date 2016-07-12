@@ -1,0 +1,25 @@
+#main
+{
+    background-color: #9d9d9d;
+    margin: auto;
+    width: 90%;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+img
+{
+    float: right;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+img:hover
+{
+    transform: rotate(1turn);
+}
+@media screen and (max-width: 480px) {
+    img
+    {
+        display: none;
+    }
+}
