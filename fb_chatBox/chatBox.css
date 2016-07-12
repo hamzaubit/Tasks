@@ -1,0 +1,103 @@
+body {
+  background-color: ghostwhite; }
+
+.chatBoxDiv {
+  margin: auto;
+  width: 250px;
+  height: 350px;
+  border: 1px solid grey;
+  border-radius: 5px; }
+  .chatBoxDiv header {
+    background-color: mediumslateblue;
+    width: 100%;
+    height: 30px; }
+    .chatBoxDiv header .headerDiv {
+      padding-top: 3px;
+      margin-left: 10px;
+      display: flex;
+      height: 25px; }
+      .chatBoxDiv header .headerDiv .titleClass {
+        font-size: small;
+        margin-bottom: 20px; }
+        .chatBoxDiv header .headerDiv .titleClass ul {
+          color: #9999ff;
+          float: right;
+          margin-top: 1px;
+          padding-bottom: 20px;
+          transition: 0.2s; }
+          .chatBoxDiv header .headerDiv .titleClass ul li:hover {
+            color: white; }
+  .chatBoxDiv .extraSectionDiv .extraSection {
+    font-size: 15px;
+    margin-left: 10px;
+    font-family: Arial;
+    color: grey;
+    margin-top: 2px;
+    padding-bottom: 5px; }
+  .chatBoxDiv section {
+    height: 58.2%;
+    border-top: 1px solid grey;
+    overflow-y: scroll; }
+    .chatBoxDiv section .senderPara {
+      float: left;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      border-top-left-radius: 10px;
+      padding: 2px;
+      margin-left: 40px;
+      width: 70%;
+      height: 25px;
+      border: 1px solid grey;
+      background-color: white; }
+    .chatBoxDiv section .receiverPara {
+      float: right;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      border-top-left-radius: 10px;
+      padding: 2px;
+      width: 70%;
+      height: 25px;
+      border: 1px solid grey;
+      background-color: lightblue;
+    }
+  .chatBoxDiv footer {
+    width: 100%;
+    height: 73px;
+    background-color: white;
+    border-top: 1px solid grey;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; }
+    .chatBoxDiv footer form textarea {
+      width: 98%;
+      border: none;
+      font-family: Arial;
+      font-size: 15px;
+      resize: none;
+      transition: 0.2s; }
+      .chatBoxDiv footer form textarea:hover {
+        background-color: #CCCCCC; }
+    .chatBoxDiv footer .footerDiv {
+      margin-top: -15px; }
+      .chatBoxDiv footer .footerDiv ul {
+        margin-left: -40px; }
+        .chatBoxDiv footer .footerDiv ul li {
+          color: grey;
+          transition: 0.2s; }
+          .chatBoxDiv footer .footerDiv ul li:hover {
+            color: #b3b3b3; }
+        .chatBoxDiv footer .footerDiv ul .like {
+          flex-grow: 5;
+          padding-left: 70px;
+          color: cornflowerblue; }
+
+li {
+  margin-left: 5px;
+  width: 20px;
+  text-align: center;
+  height: 20px; }
+
+ul {
+  list-style-type: none;
+  display: flex; }
+
+/*# sourceMappingURL=chatBox.css.map */
