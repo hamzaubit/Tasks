@@ -1,0 +1,98 @@
+body
+{
+    margin: auto;
+    width: 100%;
+}
+.main
+{
+    background-color: lightskyblue;
+    height: 300px;
+    padding: 130px;
+    margin-top: 20px;
+}
+.main .labels
+{
+    width: 300px;
+    margin: auto;
+}
+.main .labels ul
+{
+    list-style-type: none;
+    margin-left: -35px;
+    display: flex;
+    transition: 1s;
+}
+.main .labels ul li:hover
+{
+    color: white;
+}
+.main .labels ul li
+{
+    font-family: "Calibri Light";
+    font-weight: bolder;
+    font-size: large;
+    color:whitesmoke;
+    margin-right: 10px;
+}
+.main .labels ul li:last-child
+{
+    margin-left: 105px;
+}
+.form-div
+{
+    margin: auto;
+    text-align: center;
+    width: 400px;
+}
+input[type="submit"],input[type="email"],input[type="password"]
+{
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 5px;
+    height: 50px;
+    font-size: large;
+    font-family: "Calibri Light";
+
+}
+input[type="email"],input[type="password"]
+{
+    width: 300px;
+    padding-left: 20px;
+}
+input[type="submit"]
+{
+    width: 320px;
+    font-family: "Calibri Light";
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    background-color: dodgerblue;
+}
+.bubble
+{
+    margin-left: 40px;
+    margin-bottom: 7px;
+    position: relative;
+    width: 300px;
+    height: 50px;
+    padding: 0px;
+    background: #FFFFFF;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.bubble:after
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 16px 14px;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    top: -14px;
+    left: 40px;
+}
+
+
